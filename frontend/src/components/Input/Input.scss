@@ -1,0 +1,29 @@
+.search {
+  grid-area: srch;
+}
+.input-form {
+  height: 40px;
+  width: 350px;
+  background: linear-gradient(0deg, #de9292 0%, rgba(222, 146, 156, 0) 100%);
+  display: flex;
+  flex-direction: row;
+}
+.input-field {
+  height: 45px;
+  background-color: transparent;
+  border-color: transparent;
+  flex-grow: 1;
+  font-size: 22px;
+  color: #243a4e;
+}
+*:focus {
+  outline: none;
+}
+.search-button {
+  width: 70px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}

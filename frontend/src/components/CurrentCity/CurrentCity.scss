@@ -1,0 +1,29 @@
+.current-city {
+  grid-area: cd;
+  max-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.current-city__city-name {
+  font-size: 43px;
+}
+.current-city__weather {
+  font-size: 26px;
+}
+.current-city__temp {
+  display: flex;
+}
+.current-city__temp div{
+  display: flex;
+  align-items: center;
+}
+.city-default__weather-icon img{
+  width: 100px;
+}
+.current-city__temperature {
+  font-size: 80px;
+  color: #e7c0c0;
+  margin-left: 20px;
+}
